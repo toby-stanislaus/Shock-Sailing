@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to Shocksailing</title>
+<meta name="Subject" content="" />
+<meta name="Description" content="Welcome to Shocksailing" />
+<meta name="Keywords" content="Welcome to Shocksailing" />
+<meta http-equiv="content-language" content="en-UK" />
+<meta http-equiv="imagetoolbar" content="no" />
+
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="7 days" />
+<meta name="rating" content="general" />
+<meta name="robots" content="noodp" />
+<meta name="googlebots" content="noodp" />
+
+<meta name="author" content="Shocksailing 2023" />
+<meta name="copyright" content="Shocksailing 2023" />
+<meta name="distribution" content="global" />
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="designer" content="Shocksailing" />
+<meta name="publisher" content="Shocksailing" />
+<link rel="shortcut icon" href="http://www.shocksailing.com/favicon.ico">
+
+
+<script type="text/javascript" src="home\introjs.js"></script>
+<!-- ////////Validation Scripts ////////////-->
+<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/apprise/apprise-1.5.full.js"></script>
+<link rel="stylesheet" href="http://www.shocksailing.com/includes/javascript/apprise/apprise.css" type="text/css" />
+<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/FormValidations.js"></script>
+<!--///////// Validation Scripts //////////-->
+
+<!--//////// Date Picker Scripts ///////-->
+<link rel="stylesheet" type="text/css" media="all" href="http://www.shocksailing.com/includes/javascript/jquery-ui-1.8.2.custom.css">
+<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/ui.datepicker.js"></script>
+<!--//////// Date Picker Scripts ///////-->
+
+<link type="text/css" media="screen" rel="stylesheet" href="http://www.shocksailing.com/includes/javascript/colorbox/colorbox1.css" />
+<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/colorbox/jquery.colorbox.js"></script>
+	
+
+	
+	<link rel="stylesheet" type="text/css" href="http://www.shocksailing.com/templates/default/css/style_lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.shocksailing.com/templates/default/css/anythingslider.css">
+	<link rel="stylesheet" type="text/css" href="http://www.shocksailing.com/templates/default/css/stylesheet.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600,900' rel='stylesheet' type='text/css'>
+	
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_0.0addgallerylib.js"></script>
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_tabselector.js"></script>
+	<script src="http://www.shocksailing.com/includes/javascript/jquery.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_slideshow.js"></script>
+	<script type="text/javascript">
+	    $(window).load(function() {
+	        $('#slider').nivoSlider();
+	    });
+	</script>
+	
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jquery.hoveraccordion.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		   $('#hover-menu').hoverAccordion();
+		});
+	</script>
+	<script language="javascript">
+	
+	$(function(){
+	 $('.dropdown').mouseenter(function(){
+	 $('.sublinks').stop(false, true).hide();
+	     var submenu = $(this).parent().next();
+	  submenu.css({
+	  position:'absolute',
+	  top: $(this).offset().top + $(this).height() + 'px',
+	  left: $(this).offset().left + 'px',
+	  zIndex:1000
+	});
+	  submenu.stop().slideDown(300);
+	  submenu.mouseleave(function(){
+	  $(this).slideUp(300);
+	});
+	});
+	}); 
+	</script>
+	<!-- AnythingSlider -->
+		<script src="http://www.shocksailing.com/includes/javascript/jscript/jquery.anythingslider.js"></script>
+	
+		<script>
+			// Set up Sliders
+			// **************
+			$(function(){
+	
+				$('#slider').anythingSlider({
+					mode                : 'f',   // fade mode - new in v1.8!
+					resizeContents      : true, // If true, solitary images/objects in the panel will expand to fit the viewport
+					navigationSize      : 4,     // Set this to the maximum number of visible navigation tabs; false to disable
+					autoPlay            : true,     // If true, the slideshow will start running; replaces "startStopped" option
+					autoPlayLocked      : true,     // If true, user changing slides will not stop the slideshow
+					pauseOnHover        : false,      // If true & the slideshow is active, the slideshow will pause on hover
+					delay               : 6000,      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
+					resumeDelay         : 6000,     // Resume slideshow after user interaction, only if autoplayLocked is true (in milliseconds).
+					hashTags            : false,
+					buildNavigation     : true,
+					buildArrows         : true,
+					enableArrows        : true,
+					enableNavigation    : true,
+					appendStartStopTo   : null,
+					animationTime       : 500,       // How long the slideshow transition takes (in milliseconds)
+					navigationFormatter : function(index, panel){ // Format navigation labels with text
+						return ['&nbsp;', '&nbsp;', '&nbsp;', '&nbsp;'][index - 1];
+					},
+					onSlideBegin: function(e,slider) {
+						// keep the current navigation tab in view
+						slider.navWindow( slider.targetPage );
+					}
+				});
+	
+			});
+		</script>
+	
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_0.js"></script>
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/dropdown.js"></script>
+	<script type="text/javascript">
+	<!--//---------------------------------+
+	//  Developed by Roshan Bhattarai 
+	//  Visit http://roshanbh.com.np for this script and more.
+	//  This notice MUST stay intact for legal use
+	// --------------------------------->
+	$(document).ready(function()
+	{
+		//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+		$("p.menu_head").click(function()
+	    {
+			$(this).css({backgroundImage:""}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+	       	$(this).siblings().css({backgroundImage:""});
+		});
+		
+	});
+	</script>
+	
+	<!----menu sublinks--->
+	
+	</script><script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jquery/jquery-1.js"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function()
+	{
+			
+		$("p.menu_head").click(function()
+	    {
+			$(this).css({backgroundImage:""}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+	       	$(this).siblings().css({backgroundImage:""});
+		});
+	});
+	</script>
+	<!----menu sublinks end--->
+	
+	
+	<link rel="stylesheet" type="text/css" href="http://www.shocksailing.com/templates/default/css/style_slideshow.css" />
+	
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_0.0addgallerylib.js"></script>
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_tabselector.js"></script>
+	<script type="text/javascript" src="http://www.shocksailing.com/includes/javascript/jscript/jscript_slideshow.js"></script>
+	<script type="text/javascript">
+	    $(window).load(function() {
+	        $('#slider').nivoSlider();
+	    });
+	</script>
+	
+	
+	
+
+</head> <body  id="indexHomeBody">
+ <div id="mainWrapper">
+	<!-- Header Section Starts --> 
+	<div id="header">
+		<div id="logo_hold">
+			<a href="http://www.shocksailing.com/" id="logo"><span class="hide"></span></a>
+																		<div id="right_top">
+				<div class="left">
+					<div class="right">
+												<a href="http://www.shocksailing.com/index-login.html" class="acc">Login</a>
+												<br />
+						<a href="http://www.shocksailing.com/index-shop_cart.html" class="shopcart">Shopping bag</a>
+						<script type="text/javascript">
+						function myFocus(element) {
+						if (element.value == element.defaultValue) {
+						element.value = '';
+						}
+						}
+						function myBlur(element) {
+						if (element.value == '') {
+						element.value = element.defaultValue;
+						}
+						}
+						</script>
+					</div>                 
+				</div>
+			</div>
+		</div>
+		<div id="menudiv">
+			<ul>
+				<li class="padlft">
+					<a class="dropdown" href="http://www.shocksailing.com/" >Home</a>
+				</li>    
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/about-us.shtml">About</a>
+				</li>      
+				<!-- <li class="sublinks" style="left: 17%; display: none; position: relative; top: 179.5px; z-index: 1000;" >
+				<a href="cat-listing.php">Living</a>
+				<a href="cat-listing.php">Living Living</a>
+				<a href="cat-listing.php">Living Living Living</a>
+				<a href="cat-listing.php">Living</a>
+				<a href="cat-listing.php">Living Living</a>
+				<a href="cat-listing.php">Living Living Living</a>
+				</li>-->
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/index-other.html?Other=News">News</a> 
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/contact-us.shtml">Contact</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/workshop.shtml">Workshop</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/boats-and-equipment.shtml">Boats &amp; Equipment</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a class="dropdown" href="http://www.shocksailing.com/links.shtml">Links</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bgnon padrt">
+					<a class="dropdown" href="http://www.shocksailing.com/advice.shtml">Advice</a>
+				</li>
+			</ul>
+		</div>
+		<div class="social">
+			<a href="https://en-gb.facebook.com/shocksailing" target="_blank"><img style="margin: 0px 1px;" src="http://www.shocksailing.com/templates/default/images/fclogo.png" alt=""></a>
+			<a href="https://twitter.com/shocksailing" target="_blank" style="float:right;"><img src="http://www.shocksailing.com/templates/default/images/twlogo.png" alt=""></a>
+		</div>
+		<div class="callInfo">
+			<span class="call"> 0044 7771890056</span> <span class="email"><a href="mailto:simon@shocksailing.com">simon@shocksailing.com</a></span>
+		</div>
+		<div id="search">
+			<!--<form action="" id="search-form">-->
+			<form name="SearchForm" id="SearchForm" action="http://www.shocksailing.com/index-shop.html" method="GET">
+    			<input type="hidden" name="Page" value="shop">
+    			<input type="text" value="Search the site..." class="placeholder"  onfocus="this.select()" onblur="this.value=!this.value?'Search the site...':this.value;" name="k" id="s" />
+				<input name="" type="submit" value="" class="formfield" onclick="return ValidateForm('SearchForm');"/>
+			</form>
+		</div>
+	</div>
+	<!-- Header Section Ends --> 
+	<div class="innerPage">
+		<table width="980" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="" class="">
+					<!-- Left Pane Starts -->
+						<div id="left_sidebar">
+	<div class="information_left">
+		
+				<script type="text/javascript">
+			function GetBoatClass()
+			{
+				var BoatClass = document.getElementById('BoatClass').value;
+				if(BoatClass!="")
+				{
+					window.location = BoatClass;
+				}
+				return true;
+			}
+		</script>
+		<span>
+			<select name="BoatClass" id="BoatClass" onchange="return GetBoatClass();">
+				<option value="">Shop by Boat Class</option>
+								<option value="http://www.shocksailing.com/boat-class-49er.html"  >49er</option>
+								<option value="http://www.shocksailing.com/boat-class-musto-skiff.html"  >Musto Skiff</option>
+								<option value="http://www.shocksailing.com/boat-class-29er.html"  >29er</option>
+								<option value="http://www.shocksailing.com/boat-class-moth.html"  >Moth</option>
+								<option value="http://www.shocksailing.com/boat-class-laser.html"  >Laser</option>
+								<option value="http://www.shocksailing.com/boat-class-international-14.html"  >International 14</option>
+								<option value="http://www.shocksailing.com/boat-class-rs800.html"  >RS800</option>
+								<option value="http://www.shocksailing.com/boat-class-finn.html"  >Finn</option>
+								<option value="http://www.shocksailing.com/boat-class-bags-and-covers.html"  >Bags and Covers</option>
+								<option value="http://www.shocksailing.com/boat-class-fittings.html"  >Fittings</option>
+								<option value="http://www.shocksailing.com/boat-class-enterprise.html"  >Enterprise</option>
+							</select>
+		</span>
+						<script type="text/javascript">
+			function GetManufacturer()
+			{
+				var Manufacturer = document.getElementById('Manufacturer').value;
+				if(Manufacturer!="")
+				{
+					window.location = Manufacturer;
+				}
+				return true;
+			}
+		</script>
+		<span>
+			<select name="Manufacturer" id="Manufacturer" onchange="return GetManufacturer();">
+				<option value="">Shop by Brand</option>
+								<option value="http://www.shocksailing.com/brand-shock-.html"  >SHOCK</option>
+								<option value="http://www.shocksailing.com/brand-showa-.html"  >Showa</option>
+								<option value="http://www.shocksailing.com/brand-harken.html"  >Harken</option>
+								<option value="http://www.shocksailing.com/brand-ronstan.html"  >Ronstan</option>
+								<option value="http://www.shocksailing.com/brand-ovington.html"  >Ovington</option>
+								<option value="http://www.shocksailing.com/brand-marlow.html"  >Marlow</option>
+								<option value="http://www.shocksailing.com/brand-clam-cleat.html"  >Clam Cleat</option>
+								<option value="http://www.shocksailing.com/brand-allen.html"  >Allen</option>
+								<option value="http://www.shocksailing.com/brand-rwo.html"  >RWO</option>
+								<option value="http://www.shocksailing.com/brand-sea-sure.html"  >Sea Sure</option>
+								<option value="http://www.shocksailing.com/brand-plexus.html"  >Plexus</option>
+								<option value="http://www.shocksailing.com/brand-bags-and-covers.html"  >Bags and Covers</option>
+								<option value="http://www.shocksailing.com/brand-fittings.html"  >Fittings</option>
+								<option value="http://www.shocksailing.com/brand-gottefredi-maffioli.html"  >Gottefredi Maffioli</option>
+								<option value="http://www.shocksailing.com/brand-hales.html"  >Hales</option>
+								<option value="http://www.shocksailing.com/brand-mach2.html"  >mach 2</option>
+								<option value="http://www.shocksailing.com/brand-ilca.html"  >ILCA</option>
+							</select>
+		</span>
+						<div class="categories">
+			<div class="menu_list" id="secondpane">	
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-foot-loops.html">Foot Loops</a></p>
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Trapeze Equipment</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-harnesses.html" class="">Harnesses</a> 
+										<a href="http://www.shocksailing.com/category-trapeze-accessories.html" class="last">Trapeze Accessories</a> 
+									</div>
+				
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-gloves.html">Gloves</a></p>
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Tiller Extensions</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-extensions.html" class="">Tiller Extensions</a> 
+										<a href="http://www.shocksailing.com/category-universal-joints.html" class="last">Universal Joints</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Bags and Covers</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-foil-bags.html" class="">Foil Bags</a> 
+										<a href="http://www.shocksailing.com/category-spar--bags.html" class="">Spar  Bags</a> 
+										<a href="http://www.shocksailing.com/category-sail-loft-other.html" class="">Other</a> 
+										<a href="http://www.shocksailing.com/category-boat-covers-under--over.html" class="last">Boat Covers (Under & Over)</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Preparation and Repair</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-foil-sealer.html" class="">Foil sealer</a> 
+										<a href="http://www.shocksailing.com/category-grip.html" class="">Grip</a> 
+										<a href="http://www.shocksailing.com/category-adhesives.html" class="">Adhesives</a> 
+										<a href="http://www.shocksailing.com/category-tape.html" class="">Tape</a> 
+										<a href="http://www.shocksailing.com/category-polish--lubricants.html" class="last">Polish & Lubricants</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Brackets</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-compass-brackets.html" class="">Compass Brackets</a> 
+										<a href="http://www.shocksailing.com/category-other-brackets.html" class="last">Other Brackets</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Marlow  Ropes</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-sk99--sk99-max.html" class="">D12 SK99 & SK99 Max</a> 
+										<a href="http://www.shocksailing.com/category-d12-sk78--sk78-max.html" class="">D12 SK78 & SK78 Max</a> 
+										<a href="http://www.shocksailing.com/category-excel-control-.html" class="">Excel Control</a> 
+										<a href="http://www.shocksailing.com/category-excel-race.html" class="">Excel Racing</a> 
+										<a href="http://www.shocksailing.com/category-excel-racing-gp.html" class="">Excel Racing GP</a> 
+										<a href="http://www.shocksailing.com/category-elite-3-.html" class="">Elite 3</a> 
+										<a href="http://www.shocksailing.com/category-excel-r8.html" class="">Excel R8</a> 
+										<a href="http://www.shocksailing.com/category-excel-fusion.html" class="">Excel Fusion</a> 
+										<a href="http://www.shocksailing.com/category-shock-cord.html" class="">Shock Cord</a> 
+										<a href="http://www.shocksailing.com/category-kite-line.html" class="">Kite Line</a> 
+										<a href="http://www.shocksailing.com/category-more-rope-.html" class="">More Rope</a> 
+										<a href="http://www.shocksailing.com/category-chafe-cover.html" class="last">Chafe Cover</a> 
+									</div>
+				
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-rigging.html">Rigging</a></p>
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Blocks & Line turning</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-20mm-and-under.html" class="">20mm and under</a> 
+										<a href="http://www.shocksailing.com/category-30mm-and-under.html" class="">30mm and under</a> 
+										<a href="http://www.shocksailing.com/category-40mm-and-under.html" class="">40mm and under</a> 
+										<a href="http://www.shocksailing.com/category-ratchet.html" class="">Ratchet</a> 
+										<a href="http://www.shocksailing.com/category-hales-micro-.html" class="">Hales Micro</a> 
+										<a href="http://www.shocksailing.com/category-thimbles-high-load.html" class="">Thimbles High Load</a> 
+										<a href="http://www.shocksailing.com/category-rings.html" class="">Rings</a> 
+										<a href="http://www.shocksailing.com/category-block-accessories.html" class="last">Block Accessories</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Fittings</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-shock-thru-deck-bush.html" class="">Shock Thru Deck Bush</a> 
+										<a href="http://www.shocksailing.com/category-shock-dog-bone.html" class="">Shock Dog Bone</a> 
+										<a href="http://www.shocksailing.com/category-shackles-.html" class="">Shackles</a> 
+										<a href="http://www.shocksailing.com/category-cleats-and-accessories.html" class="">Cleats and Accessories</a> 
+										<a href="http://www.shocksailing.com/category-bungs.html" class="">Bungs</a> 
+										<a href="http://www.shocksailing.com/category-fixings.html" class="">Fixings</a> 
+										<a href="http://www.shocksailing.com/category-pins-.html" class="last">Pins</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Tools</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-splicing.html" class="">Splicing</a> 
+										<a href="http://www.shocksailing.com/category-tools-other.html" class="last">Other</a> 
+									</div>
+				
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-tuning.html">Tuning</a></p>
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">49er Specific</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-49er-fittings-and-accessories.html" class="">Fittings and Accessories</a> 
+										<a href="http://www.shocksailing.com/category-49er-rigging-and-spars.html" class="">Rigging and Spars</a> 
+										<a href="http://www.shocksailing.com/category-49er-sheetshalyardscontrols.html" class="">Sheets,Halyards,Controls</a> 
+										<a href="http://www.shocksailing.com/category-49er-boat-preparation.html" class="">Boat Preparation</a> 
+										<a href="http://www.shocksailing.com/category-49er-bags-and-covers.html" class="">Bags and Covers</a> 
+										<a href="http://www.shocksailing.com/category-tuning-49er.html" class="">Tuning 49er</a> 
+										<a href="http://www.shocksailing.com/category-49er-used-parts.html" class="last">Used Parts</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">29er</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-accessories-and-fittings.html" class="">Accessories and Fittings</a> 
+										<a href="http://www.shocksailing.com/category-spars-and-rigging.html" class="">Spars and Rigging</a> 
+										<a href="http://www.shocksailing.com/category-halyards-sheets--controls.html" class="">Running rigging</a> 
+										<a href="http://www.shocksailing.com/category-covers--bags.html" class="">Covers & Bags</a> 
+										<a href="http://www.shocksailing.com/category-boat-tuning.html" class="">Boat Tuning</a> 
+										<a href="http://www.shocksailing.com/category-preparing-your-boat.html" class="last">Preparing your boat</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">Moth Specific</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-moth-fittings-and-accesories.html" class="">Fittings</a> 
+										<a href="http://www.shocksailing.com/category-moth_rigging.html" class="">Rigging</a> 
+										<a href="http://www.shocksailing.com/category-bow-sprit.html" class="">Bow Sprit</a> 
+										<a href="http://www.shocksailing.com/category-mach-2-parts.html" class="">Mach 2 Parts</a> 
+										<a href="http://www.shocksailing.com/category-sail-.html" class="">Sail</a> 
+										<a href="http://www.shocksailing.com/category-mast--boom-.html" class="">Mast & Boom</a> 
+										<a href="http://www.shocksailing.com/category-foil-parts.html" class="">Foil Parts</a> 
+										<a href="http://www.shocksailing.com/category-hull--wing-parts.html" class="">Hull & Wing Parts</a> 
+										<a href="http://www.shocksailing.com/category-moth-accessories.html" class="">Moth Accessories</a> 
+										<a href="http://www.shocksailing.com/category-trolley.html" class="last">Trolley</a> 
+									</div>
+				
+								
+				<p class="menu_head" id="menu_list_h2"><a href="javascript:void(0);">ILCA</a></p>
+				<div class="menu_body" style="">
+										<a href="http://www.shocksailing.com/category-spars.html" class="">Spars</a> 
+										<a href="http://www.shocksailing.com/category-hull-.html" class="last">Hull & Foils</a> 
+									</div>
+				
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-coaching-accessories.html">Useful Stuff</a></p>
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-sail-accessories.html">Sail Accessories</a></p>
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-trolley--trailer.html">Trolley & Trailer</a></p>
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-clearance.html">Clearance</a></p>
+									<p class="menu_head" id="menu_list_h2"><a href="http://www.shocksailing.com/category-payments.html">Make A Payment</a></p>
+							</div>
+		</div>
+				
+		<script type="text/javascript">
+		
+		$(document).ready(function()
+		{
+		
+		$("p.menu_head").click(function()
+		{
+		$(this).css({backgroundImage:""}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+		$(this).siblings().css({backgroundImage:""});
+		});
+		});
+		</script>
+	
+	</div>
+	</div>					<!-- Left Pane Ends -->
+				</td>	
+				<td>
+						<!-- Index Content Starts -->
+				<div id="slider" class="nivoSlider">
+					<a href="" target="_blank">
+							<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2UxNF82MDM3ODM0ZGE2NTA5LnBuZyZ3PTczMSZoPTI1NCZIZWlnaHRNb2RlPXRydWU=" alt="Blank Banner with logo" title="Blank Banner with logo" border="0"  />
+				</a>
+    	        </div>
+        		<!-- Right Pane Starts -->
+		<div id="right_sidebar">
+		<p>
+		<a href="http://www.shocksailing.com/product-harness-back-pad.html" target="_self">
+						<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2U4XzVmYTNjNmQwYzY2ODEuanBnJnc9MTEzJmg9NzUmSGVpZ2h0TW9kZT10cnVl" alt="Right Side Banners" title="Right Side Banners" border="0"  />
+			</a>
+	</p>
+	<p><a href="http://www.shocksailing.com/product-harness-back-pad.html" target="_self">NEW HARNESS BACK PAD</a></p>
+	<hr />
+		<p>
+		<a href="http://www.shocksailing.com/index.php?Page=boat-class&BoatClassID=1" target="_self">
+						<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2U5XzUxNTNmYmU0OTQzOWMuanBnJnc9MTEzJmg9NzUmSGVpZ2h0TW9kZT10cnVl" alt="Right Side Banners" title="Right Side Banners" border="0"  />
+			</a>
+	</p>
+	<p><a href="http://www.shocksailing.com/index.php?Page=boat-class&BoatClassID=1" target="_self">Specialist 49er Parts</a></p>
+	<hr />
+		<p>
+		<a href="http://www.shocksailing.com/product-sun-screen-spf-30--50_564.html" target="_blank">
+						<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2UxN182MzAwNzc0ZmNkODcxLmpwZWcmdz0xMTMmaD03NSZIZWlnaHRNb2RlPXRydWU=" alt="Sun Screen" title="Sun Screen" border="0"  />
+			</a>
+	</p>
+	<p><a href="http://www.shocksailing.com/product-sun-screen-spf-30--50_564.html" target="_blank">Sun Screen</a></p>
+	<hr />
+		<p>
+		<a href="http://www.shocksailing.com/product-optimum-sailing-watch-jumbo-blue-314.html" target="_blank">
+						<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2UxNV82MGQxZGU2MDcwYzM1LmpwZyZ3PTExMyZoPTc1JkhlaWdodE1vZGU9dHJ1ZQ==" alt="Optimum Watch" title="Optimum Watch" border="0"  />
+			</a>
+	</p>
+	<p><a href="http://www.shocksailing.com/product-optimum-sailing-watch-jumbo-blue-314.html" target="_blank">Optimum Watch</a></p>
+	<hr />
+		<p>
+		<a href="http://www.shocksailing.com/product-ote-energy-gel.html" target="_blank">
+						<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9zaXRlZ3JhcGhpY3MvSW1hZ2UxNl82MWE1ZDE2ZmVlYWUwLmpwZyZ3PTExMyZoPTc1JkhlaWdodE1vZGU9dHJ1ZQ==" alt="OTE" title="OTE" border="0"  />
+			</a>
+	</p>
+	<p><a href="http://www.shocksailing.com/product-ote-energy-gel.html" target="_blank">Energy Gel</a></p>
+	<hr />
+		<!--<p><img src="http://www.shocksailing.com/templates/default/images/49er.jpg" width="113" height="75" /></p>
+	<p>Specialist Musto Skiff products</p>
+	<hr />-->
+	
+	<img style="margin-top:-15px;" src="http://www.shocksailing.com/templates/default/images/worldpay.png" />
+</div>		<!-- Right Pane Ends -->
+		<p>&nbsp; </p>
+				<p>&nbsp; </p>
+				<div class="centerColumn" id="categoryListing">   
+			<div class="feature_prod">
+				<div class="catboxW">
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-shock-dog-bone-sk550389.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNjIzYjRjZGM3N2Y2My5qcGcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="Shock Dog Bone [SK55038/9]" title="Shock Dog Bone [SK55038/9]" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-shock-dog-bone-sk550389.html" class="prodName">Shock Dog Bone [SK55038/9]</a>
+							<span class="price">�6.84</span>
+						</div>
+					</div>
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-customised-tiller-extensions_182.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNjAzOGJjYjgyNmRkMy5qcGcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="Customised Tiller Extensions" title="Customised Tiller Extensions" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-customised-tiller-extensions_182.html" class="prodName">Customised Tiller Extensions</a>
+							<span class="price">�TBC</span>
+						</div>
+					</div>
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-tramp-protector-sl67001-.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNWY5ODE3NGYwMGUyOC5qcGcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="Tramp Protector [SL67001 MB]" title="Tramp Protector [SL67001 MB]" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-tramp-protector-sl67001-.html" class="prodName">Tramp Protector [SL67001 MB]</a>
+							<span class="price">�48.60</span>
+						</div>
+					</div>
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-moth-batten-cam.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNWZhM2ZiYTU0MmMxYi5qcGcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="North Sails Batten Cam [ B1544 FBb ]" title="North Sails Batten Cam [ B1544 FBb ]" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-moth-batten-cam.html" class="prodName">North Sails Batten Cam [ B1544 FBb ]</a>
+							<span class="price">�42.90</span>
+						</div>
+					</div>
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-showa-406-clearance.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNjNmZTAwYTdkNGZmYy5qcGcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="Showa 406 Spring Sale" title="Showa 406 Spring Sale" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-showa-406-clearance.html" class="prodName">Showa 406 Spring Sale</a>
+							<span class="price">�9.27</span>
+						</div>
+					</div>
+										<div class="catbox">
+						<a href="http://www.shocksailing.com/product-mothfroth-t-shirt.html" class="prodImg">
+										<img src="http://www.shocksailing.com/includes/classes/class.thumbnail.php?sk_id=T3JpZ2luYWxQYXRoPS9ob21lL3NpdGVzLzIyYS83Lzc4ZjZmY2U2NmIvcHVibGljX2h0bWwvdXBsb2Fkcy9wcm9kdWN0L29yaWdpbmFsL3BfNjQwNzc1NDVkY2FkYS5wbmcmdz0yMjEmaD0xNzYmSGVpZ2h0TW9kZT10cnVl" alt="Mothfroth T shirt" title="Mothfroth T shirt" border="0"  />
+							</a>
+						<div class="pord_in"> 
+							<a href="http://www.shocksailing.com/product-mothfroth-t-shirt.html" class="prodName">Mothfroth T shirt</a>
+							<span class="price">�23.64</span>
+						</div>
+					</div>
+									</div>	
+			</div>
+			<p>&nbsp;</p>
+		</div>
+				
+		<!-- Index Content Ends -->
+		
+					</td>
+							</tr>
+		</table>
+	</div>
+	<!-- Footer Starts -->
+	<div id="footer-wrap">
+		<div id="footer">
+			<div class="right">
+				<img src="http://www.shocksailing.com/templates/default/images/logosmall.jpg" width="107" height="16" /><br />
+				<span>Unit 6, Maritme Center,
+				Mere Side, Portland,
+				Dorset. DT5 1FD</span>
+			</div>
+			<div id="top_links">
+				<ul class="footer_left" >
+					<li><a href="http://www.shocksailing.com/">Home</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/about-us.shtml">About</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/index-other.html?Other=News">News</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/contact-us.shtml">Contact</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/workshop.shtml">Workshop</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/boats-and-equipment.shtml">Used Boats & Equipment</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/links.shtml">Links</a></li>
+					<li>|</li>
+					
+					<li><a href="http://www.shocksailing.com/advice.shtml">Advice</a></li>	      	
+				</ul>
+			</div>
+			<div class="left">&copy; 2013  <a href="http://www.shocksailing.com/">Shock</a>. &nbsp;All rights reserved.&nbsp;<a style="color:#0779f4;" href="http://www.shocksailing.com/index-SiteMap.html" >Sitemap</a></div>
+		</div>
+	</div>
+	<!-- Footer Ends -->	
+</div>					<!--0.206--></body>
+</html>

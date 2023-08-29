@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(104, 103, 102);
+    
+}
+
+.headline {
+    height: 70px;
+    width: 1600px; 
+    padding-bottom: 15px;
+    
+}
+
+
+    
+.logo {
+    min-height: 40px;
+    min-width: 100px;
+    height: 80px;
+    width: 300px;
+    padding: 2px;
+}
+
+.logo:hover {
+    outline: 1px solid white;
+}
+
+.logoArea {
+    width: 550px; 
+    height:80px;
+    float:left;
+}
+
+
+.searchBox {
+    display: flex;
+    height:60px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+    top: 10%;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #ffffff 0%, #555353 100%));
+    border: 0;
+    display: inline-block;
+    
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.searchArea {
+    height:80%;
+    width: 850px;
+    float:left;
+    
+}
+
+.userArea {
+    width: 50px; 
+    height:80px;
+    float:left
+}
+
+
+.shoppingArea {
+    width:150px;
+    height:80px;
+    float: left;
+}
+  
+
+.shoppingCart {
+    width:60px;
+    height:60px;
+    top:10px;
+    padding: 6px;
+}
+
+
+
+
+.infoStrip{
+    width:1615px;
+    height:31px;
+    background-color: #14232e;      
+}
+
+.allBlock{
+    width:150px;
+    height:30px;
+    float: left;
+    
+}
+
+.allButton{
+    width:40px;
+    height:30px;
+    background-color: #14232e; 
+    color:white;
+    font-size: 25px;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+}
+
+.menu{
+    width:40px;
+    height:30px;
+    float:left;
+    
+}
+
+.infoBlock{
+    width:150px;
+    height:30px;
+    float: left;
+    
+}
+
+.infoButton{
+    width:149px;
+    height:30px;
+    background-color: #14232e; 
+    color:white;
+    font-size: 25px;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infoButton:hover{
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+.infoBlockLarge{
+    width:300px;
+    height:25px;
+    float: left;
+    
+}
+
+.infoButtonLarge{
+    width:299px;
+    height:30px;
+    background-color: #14232e; 
+    color:white;
+    font-size: 25px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.infoButtonLarge:hover{
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+
